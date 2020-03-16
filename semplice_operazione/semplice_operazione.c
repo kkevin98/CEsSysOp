@@ -29,20 +29,16 @@ int main(int argc, char**argv){
 			printf("Il risultato è: %.3f", res);
 			return 0;
 		}
-		if(op=='/' && b!=0){
+		if(op=='/'){
+			if(b==0){
+				printf("Non puoi dividere per 0, ciao!");
+				return -1;
+			}
 			res=a/b;
 			printf("Il risultato è: %.3f", res);
 			return 0;
 		}
-		else{
-			printf("Non puoi dividere per 0, ciao!");
-		}
-		printf("L'operazione non è valida, ciao!");
-		return -1;
 	}
-	else{
-		printf("Mi hai dato dei valori non validi, ciao!");
-		return -1;
-	}
-	return 0;
+	printf("Mi hai dato dei valori non validi, ciao!");
+	return -1;
 }
