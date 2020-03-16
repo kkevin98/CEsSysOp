@@ -13,12 +13,10 @@ int main(int argc, char**argv){
 	float res;
 	printf("Scrivi l'operazione da svolgere nella sequenza op, num, num:\n");
 	test=scanf("%c %f %f", &op, &a, &b);
-	//scanf("%*s");
 	if(test==3){
 		if(op=='+'){
 			res=a+b;
 			printf("Il risultato è: %.3f", res);
-			printf("caio mondon");
 			return 0;
 		}
 		if(op=='-'){
