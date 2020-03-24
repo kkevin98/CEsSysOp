@@ -37,6 +37,7 @@ int main(int argc, char * argv[]){
 		}
 	}
 
+	//Test per vedere se bubble_sort funziona
 
 	int array[]={123, 2, 27, 12, 98, 06, 1024, 12, 22, 3, -25};
 	printf("Questo è l'array prima del sort:\n");
